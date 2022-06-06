@@ -1,6 +1,6 @@
 # Examen Práctico de Programación Backend Python
 ## Demo
-https://beitechstore.azurewebsites.net/
+<a href="https://beitechstore.azurewebsites.net/" target="_blank">https://beitechstore.azurewebsites.net/</a>
 
 ## Base de datos
 
