@@ -1,5 +1,4 @@
 from django.db import models
-from django.core.exceptions import ValidationError
 
 
 class Product(models.Model):
@@ -79,22 +78,6 @@ class OrderDetail(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE, verbose_name='Pedido')
     product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='Producto')
     quantity = models.IntegerField(blank=False, null=False, verbose_name='Cantidad')
-    #total = models.DecimalField(blank=False, null=False, max_digits=10, decimal_places=2, verbose_name='Total')
-    #total = models.IntegerField(verbose_name="Total calculado", blank=True)
-
-
-    # @property
-    # def calculate_total(self):
-    #     #if(self.total != None):
-    #     total = Product.price * self.quantity 
-    #     return total
-    
-    # def save(self, *args, **kwargs):
-    #     self.total = self.calculate_total
-    #     super(OrderDetail, self).save(*args, **kwargs)
-        
-    # def __str__(self):
-    #     return self.calculate_total
     
     def __str__(self):
         return f'{self.order.customer.name} - {self.product.name} ( x {self.quantity} )'

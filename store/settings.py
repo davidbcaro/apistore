@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lzq=co2yh5k_dka1)0!ns(qkwcbp+ivxod=vm4+j5unv69e=%g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['beitechstore.azurewebsites.net', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'beitechstore.azurewebsites.net']
 
 
 # Application definition
