@@ -18,8 +18,22 @@ https://beitechstore.azurewebsites.net/
 -	No es necesario implementar un CRUD para cada tabla en la base de datos, los endpoints indispensables para la prueba son: Creación de orden y Listar órdenes por rango de fechas.
     - Pedido: http://beitechstore.azurewebsites.net/order/
     - Detalle de pedido: http://beitechstore.azurewebsites.net/orderdetail/
+      <p align="center">
+      <img src="assets/detalle_pedido.png">
+      </p>
     - Listar pedidos por rango de fecha: http://beitechstore.azurewebsites.net/orderlist/
-
+      - Cliente: **Manny Bharma**
+      <p align="center">
+      <img src="assets/filtro_rango_fechas.png">
+      <img src="assets/filtro_rango_fechas2.png">
+      </p>
+      
+      - Cliente: **Alan Briggs**
+      <p align="center">
+      <img src="assets/filtro_rango_fechas3.png">
+      <img src="assets/filtro_rango_fechas4.png">
+      </p>
+      
 ## Entregables
 -	El Diagrama Entidad Relación en formato imagen. [DER](https://github.com/davidbcaro/apistore/blob/main/DER-Database/ERD1.png)
 -	La documentación de los métodos del API REST. [Documentación Swagger](https://beitechstore.azurewebsites.net/docs/) | https://beitechstore.azurewebsites.net/docs/
