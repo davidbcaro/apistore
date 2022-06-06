@@ -2,6 +2,9 @@
 ## Demo en Azure
 https://beitechstore.azurewebsites.net/
 
+## Documentación
+https://beitechstore.azurewebsites.net/docs/
+
 ## Base de datos
 
 <p align="center">
